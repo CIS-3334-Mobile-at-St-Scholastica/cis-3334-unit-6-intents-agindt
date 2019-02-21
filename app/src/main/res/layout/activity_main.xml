@@ -66,8 +66,52 @@
             android:layout_weight="1" />
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="86dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/spotlight2" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="356dp"
+            android:layout_height="66dp"
+            tools:text="Red Green's &quot;This could be it!&quot; Tour\nSUNDAY, APRIL 7, 2019, 7 – 9 P.M\nMitchell Auditorium " />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button2WebInfo"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Web Info" />
+
+        <Button
+            android:id="@+id/button2Calendar"
+            android:layout_width="169dp"
+            android:layout_height="wrap_content"
+            android:text="Add to Calendar" />
+
+        <Button
+            android:id="@+id/button2map"
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:text="Map" />
+    </LinearLayout>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textViewStatus" />
+
 </LinearLayout>
